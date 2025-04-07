@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Categories from '../components/Categories'
 import BestSeller from '../components/BestSeller'
 import BannerCTA from '../components/BannerCTA'
+import NewsLetter from '../components/NewsLetter'
 
 const Home = () => {
   return (
@@ -11,6 +12,8 @@ const Home = () => {
         <Categories />
         <BestSeller />
         <BannerCTA />
+        <NewsLetter />
+        
     </div>
   )
 }
