@@ -35,7 +35,7 @@ const ProductCard = ({ product }) => {
               .map((_, i) => (
                 <img
                   key={i}
-                  src={i < 4 ? assets.star_dull_icon : assets.star_dull_icon}
+                  src={i < 4 ? assets.star_icon : assets.star_dull_icon}
                   alt=""
                   className="md:w-3.5 w-3"
                 />
